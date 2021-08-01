@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+.columns {
+    display: flex;
+
+}
+
+body {
+    background-image: url("https://m.media-amazon.com/images/I/61hFz7QMjOL._AC_SY355_.jpg");
+}
+
+header {
+    background: pink;
+    padding: 10px 10px;
+    width: 400px;
+    text-align: center;
+    border: 2px solid gray;
+    margin: 0 auto;
+}
+
+.container {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background: pink;
+    border: 2px solid gray;
+    margin-top: 10px;
+
+}
+
+.col h2 {
+    padding-left: 120px;
+}
+
+#id-counter {
+    width: 400px;
+    text-align: center;
+    font-size: larger;
+
+}
+
+button {
+    background: blueviolet;
+    margin: 10px 130px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 35%;
+    font-weight: bold;
+}
+
