@@ -8,7 +8,8 @@
 }
 
 body {
-    background-image: url("https://m.media-amazon.com/images/I/61hFz7QMjOL._AC_SY355_.jpg");
+    background-image: url('/images/airplane-background.jpg');
+    background-size: 200% 200%;
 }
 
 header {
