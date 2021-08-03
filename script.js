@@ -7,12 +7,13 @@ let saveEl = document.getElementById('save-el');
 
 function increment() {
     count = count + 1;
-    countEl.innerText = count;
+    countEl.textContent = count;
 
 }
 
 function save() {
-    let totalCount = count + ' -';
-    saveEl.innerText += totalCount;
-    console.log(count);
+    let totalCount = count + ' - ';
+    saveEl.textContent += totalCount;
+    count = 0;
+    countEl.textContent = count;
 }
